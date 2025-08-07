@@ -32,11 +32,4 @@ public class AppController {
 	public String update(@RequestBody Product p) {
 		return s.updateData(p);
 	}
-
-	/* 
-	@DeleteMapping("/delete/{id}")
-	public String delete(@PathVariable int id) {
-		return s.deleteData(id);
-	}
-	*/
 }
